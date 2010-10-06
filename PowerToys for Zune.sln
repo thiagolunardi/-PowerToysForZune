@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PowerToys4Zune", "PowerToys4Zune\PowerToys4Zune.csproj", "{52231BE3-3577-4034-8B73-408D00A2C0CE}"
+EndProject
+Project("{6141683F-8A12-4E36-9623-2EB02B2C2303}") = "Setup_PowerToys4Zune", "Setup_PowerToys4Zune\Setup_PowerToys4Zune.isproj", "{70796A30-4BF2-4257-B621-40AF5A64EBFA}"
+	ProjectSection(ProjectDependencies) = postProject
+		{52231BE3-3577-4034-8B73-408D00A2C0CE} = {52231BE3-3577-4034-8B73-408D00A2C0CE}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		CD_ROM|x86 = CD_ROM|x86
+		Debug|x86 = Debug|x86
+		DVD-5|x86 = DVD-5|x86
+		Release|x86 = Release|x86
+		SingleImage|x86 = SingleImage|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{52231BE3-3577-4034-8B73-408D00A2C0CE}.CD_ROM|x86.ActiveCfg = Release|x86
+		{52231BE3-3577-4034-8B73-408D00A2C0CE}.CD_ROM|x86.Build.0 = Release|x86
+		{52231BE3-3577-4034-8B73-408D00A2C0CE}.Debug|x86.ActiveCfg = Debug|x86
+		{52231BE3-3577-4034-8B73-408D00A2C0CE}.Debug|x86.Build.0 = Debug|x86
+		{52231BE3-3577-4034-8B73-408D00A2C0CE}.DVD-5|x86.ActiveCfg = Debug|x86
+		{52231BE3-3577-4034-8B73-408D00A2C0CE}.DVD-5|x86.Build.0 = Debug|x86
+		{52231BE3-3577-4034-8B73-408D00A2C0CE}.Release|x86.ActiveCfg = Release|x86
+		{52231BE3-3577-4034-8B73-408D00A2C0CE}.Release|x86.Build.0 = Release|x86
+		{52231BE3-3577-4034-8B73-408D00A2C0CE}.SingleImage|x86.ActiveCfg = Release|x86
+		{52231BE3-3577-4034-8B73-408D00A2C0CE}.SingleImage|x86.Build.0 = Release|x86
+		{70796A30-4BF2-4257-B621-40AF5A64EBFA}.CD_ROM|x86.ActiveCfg = CD_ROM
+		{70796A30-4BF2-4257-B621-40AF5A64EBFA}.CD_ROM|x86.Build.0 = CD_ROM
+		{70796A30-4BF2-4257-B621-40AF5A64EBFA}.Debug|x86.ActiveCfg = DVD-5
+		{70796A30-4BF2-4257-B621-40AF5A64EBFA}.Debug|x86.Build.0 = DVD-5
+		{70796A30-4BF2-4257-B621-40AF5A64EBFA}.DVD-5|x86.ActiveCfg = DVD-5
+		{70796A30-4BF2-4257-B621-40AF5A64EBFA}.DVD-5|x86.Build.0 = DVD-5
+		{70796A30-4BF2-4257-B621-40AF5A64EBFA}.Release|x86.ActiveCfg = SingleImage
+		{70796A30-4BF2-4257-B621-40AF5A64EBFA}.Release|x86.Build.0 = SingleImage
+		{70796A30-4BF2-4257-B621-40AF5A64EBFA}.SingleImage|x86.ActiveCfg = SingleImage
+		{70796A30-4BF2-4257-B621-40AF5A64EBFA}.SingleImage|x86.Build.0 = SingleImage
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
